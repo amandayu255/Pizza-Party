@@ -97,8 +97,6 @@ fun NumberField(
     onValueChange: (String) -> Unit,
     modifier: Modifier = Modifier
 ) {
-    var textInput by remember { mutableStateOf("") }
-
     TextField(
         value = textInput,
         onValueChange = onValueChange,
